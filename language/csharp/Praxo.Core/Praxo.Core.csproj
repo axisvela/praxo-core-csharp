@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Praxo.Core</RootNamespace>
+    <AssemblyName>Praxo.Core</AssemblyName>
+    <PackageId>Praxo.Core</PackageId>
+    <Version>0.3.0</Version>
+    <Authors>AxisVela</Authors>
+    <Description>Embeddable MIT-licensed agent framework for .NET: tools, policy, events, memory, middleware, and an agent loop</Description>
+    <PackageTags>agents;llm;agent-framework;tool-calling;ai</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://axisvela.github.io/praxo-core/</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/axisvela/praxo-core</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+    <None Include="../REGISTRY.md" Pack="true" PackagePath="\" />
+    <None Include="../llms.txt" Pack="true" PackagePath="\" />
+    <None Include="../llms.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
