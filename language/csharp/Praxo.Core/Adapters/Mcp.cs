@@ -19,7 +19,7 @@ public sealed class McpClient : IDisposable
 {
     public const string DefaultProtocolVersion = "2024-11-05";
 
-    private readonly McpStdioTransport _transport;
+    private readonly IMcpTransport _transport;
     private readonly TimeSpan _timeout;
     private readonly string _clientName;
     private readonly string _clientVersion;
@@ -31,17 +31,17 @@ public sealed class McpClient : IDisposable
         McpServerOptions options,
         TimeSpan? timeout = null,
         string clientName = "praxo-core",
-        string clientVersion = "0.5.0",
+        string clientVersion = "0.6.0",
         string protocolVersion = DefaultProtocolVersion)
         : this(new McpStdioTransport(options), timeout, clientName, clientVersion, protocolVersion)
     {
     }
 
     public McpClient(
-        McpStdioTransport transport,
+        IMcpTransport transport,
         TimeSpan? timeout = null,
         string clientName = "praxo-core",
-        string clientVersion = "0.5.0",
+        string clientVersion = "0.6.0",
         string protocolVersion = DefaultProtocolVersion)
     {
         _transport = transport;
