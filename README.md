@@ -8,6 +8,7 @@ human-in-the-loop approval, checkpoints, events, and tool calling.
 - Registry: NuGet
 - Install: `dotnet add package Praxo.Core --version 0.6.0`
 - Documentation: https://axisvela.github.io/praxo-core/languages/csharp/
+- Examples: https://github.com/axisvela/praxo-core-csharp/tree/main/language/csharp/examples
 - Mirror repository: https://github.com/axisvela/praxo-core-csharp
 - Canonical source: https://github.com/axisvela/praxo-core/tree/main/language/csharp
 - Release index: https://axisvela.github.io/praxo-core/languages/registry-status/
