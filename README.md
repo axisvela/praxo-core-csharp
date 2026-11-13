@@ -4,9 +4,9 @@ Dedicated repository for the C# implementation of PRAXO-CORE: an
 embeddable, MIT-licensed agent execution kernel with policy controls,
 human-in-the-loop approval, checkpoints, events, and tool calling.
 
-- Package: `Praxo.Core` (`0.5.0`)
+- Package: `Praxo.Core` (`0.6.0`)
 - Registry: NuGet
-- Install: `dotnet add package Praxo.Core --version 0.5.0`
+- Install: `dotnet add package Praxo.Core --version 0.6.0`
 - Documentation: https://axisvela.github.io/praxo-core/languages/csharp/
 - Mirror repository: https://github.com/axisvela/praxo-core-csharp
 - Canonical source: https://github.com/axisvela/praxo-core/tree/main/language/csharp
