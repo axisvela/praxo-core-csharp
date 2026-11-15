@@ -9,9 +9,9 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Package | `Praxo.Core` |
 | Registry | [NuGet](https://www.nuget.org/packages/Praxo.Core/0.9.0) |
 | Install | `dotnet add package Praxo.Core --version 0.9.0` |
-| Source version | `0.9.0` |
+| Source version | `0.9.1` |
 | Published version | `0.9.0` |
-| Source tag | `csharp/v0.9.0` |
+| Source tag | `csharp/v0.9.1` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/csharp/ |
