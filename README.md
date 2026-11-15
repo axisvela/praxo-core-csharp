@@ -7,10 +7,10 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 | Field | Value |
 | --- | --- |
 | Package | `Praxo.Core` |
-| Registry | [NuGet](https://www.nuget.org/packages/Praxo.Core/0.8.0) |
-| Install | `dotnet add package Praxo.Core --version 0.8.0` |
+| Registry | [NuGet](https://www.nuget.org/packages/Praxo.Core/0.9.0) |
+| Install | `dotnet add package Praxo.Core --version 0.9.0` |
 | Source version | `0.9.0` |
-| Published version | `0.8.0` |
+| Published version | `0.9.0` |
 | Source tag | `csharp/v0.9.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
@@ -33,7 +33,7 @@ PRAXO-CORE is an embeddable, MIT-licensed agent framework. This package is its n
 Install the published package:
 
 ```bash
-dotnet add package Praxo.Core --version 0.8.0
+dotnet add package Praxo.Core --version 0.9.0
 ```
 
 ```csharp
@@ -66,19 +66,19 @@ Runnable examples live under [`language/csharp/examples`](language/csharp/exampl
 
 | Example | What it shows |
 | --- | --- |
-| [checkpoint](language/csharp/examples/checkpoint) | This example uses published NuGet `Praxo.Core==0.8.0` to keep checkpoint storage application-owned while using the SDK allowlist for payload encoding. |
-| [consumer](language/csharp/examples/consumer) | This starter installs the published NuGet package `Praxo.Core==0.8.0` and verifies an allow/deny governed tool path. |
-| [event-sink](language/csharp/examples/event-sink) | This example uses published NuGet `Praxo.Core==0.8.0` to observe agent lifecycle and tool events without coupling the agent to a logging or telemetry backend. |
-| [hitl](language/csharp/examples/hitl) | This example uses published NuGet `Praxo.Core==0.8.0` to demonstrate a write tool that requires human approval: |
-| [identity-policy](language/csharp/examples/identity-policy) | This example uses published NuGet `Praxo.Core==0.8.0` to bind a trusted principal to Core policy authorization. The application owns authentication and principal storage; Core o... |
-| [live-model](language/csharp/examples/live-model) | This example uses published NuGet `Praxo.Core==0.8.0` to connect the C# Core to an OpenAI-compatible endpoint and registers one low-risk `get_time` tool. |
-| [mcp](language/csharp/examples/mcp) | This example uses published NuGet `Praxo.Core==0.8.0` with an in-process MCP transport. It exercises the same `initialize`, `tools/list`, and `tools/call` flow as a stdio sessio... |
-| [provider-fallback](language/csharp/examples/provider-fallback) | This example uses published NuGet `Praxo.Core==0.8.0` to fall back to a second model when the primary model call fails. |
-| [retry](language/csharp/examples/retry) | This example uses published NuGet `Praxo.Core==0.8.0` to retry transient model failures without changing the agent loop. |
-| [service](language/csharp/examples/service) | This example embeds published NuGet `Praxo.Core==0.8.0` in a standard-library TCP/HTTP service. The application supplies a principal and tenant, restricts tools, and returns JSON. |
-| [session-checkpoint](language/csharp/examples/session-checkpoint) | This example uses published NuGet `Praxo.Core==0.8.0` to save and restore a multi-turn conversation across two agent runs. The checkpoint allowlist encodes the session message h... |
-| [streaming](language/csharp/examples/streaming) | This example uses published NuGet `Praxo.Core==0.8.0` to consume deltas while the agent loop keeps running normally. |
-| [structured-output](language/csharp/examples/structured-output) | This example uses published NuGet `Praxo.Core==0.8.0` to turn free text into validated JSON with `StructuredOutput`. |
+| [checkpoint](language/csharp/examples/checkpoint) | This example uses published NuGet `Praxo.Core==0.9.0` to keep checkpoint storage application-owned while using the SDK allowlist for payload encoding. |
+| [consumer](language/csharp/examples/consumer) | This starter installs the published NuGet package `Praxo.Core==0.9.0` and verifies an allow/deny governed tool path. |
+| [event-sink](language/csharp/examples/event-sink) | This example uses published NuGet `Praxo.Core==0.9.0` to observe agent lifecycle and tool events without coupling the agent to a logging or telemetry backend. |
+| [hitl](language/csharp/examples/hitl) | This example uses published NuGet `Praxo.Core==0.9.0` to demonstrate a write tool that requires human approval: |
+| [identity-policy](language/csharp/examples/identity-policy) | This example uses published NuGet `Praxo.Core==0.9.0` to bind a trusted principal to Core policy authorization. The application owns authentication and principal storage; Core o... |
+| [live-model](language/csharp/examples/live-model) | This example uses published NuGet `Praxo.Core==0.9.0` to connect the C# Core to an OpenAI-compatible endpoint and registers one low-risk `get_time` tool. |
+| [mcp](language/csharp/examples/mcp) | This example uses published NuGet `Praxo.Core==0.9.0` with an in-process MCP transport. It exercises the same `initialize`, `tools/list`, and `tools/call` flow as a stdio sessio... |
+| [provider-fallback](language/csharp/examples/provider-fallback) | This example uses published NuGet `Praxo.Core==0.9.0` to fall back to a second model when the primary model call fails. |
+| [retry](language/csharp/examples/retry) | This example uses published NuGet `Praxo.Core==0.9.0` to retry transient model failures without changing the agent loop. |
+| [service](language/csharp/examples/service) | This example embeds published NuGet `Praxo.Core==0.9.0` in a standard-library TCP/HTTP service. The application supplies a principal and tenant, restricts tools, and returns JSON. |
+| [session-checkpoint](language/csharp/examples/session-checkpoint) | This example uses published NuGet `Praxo.Core==0.9.0` to save and restore a multi-turn conversation across two agent runs. The checkpoint allowlist encodes the session message h... |
+| [streaming](language/csharp/examples/streaming) | This example uses published NuGet `Praxo.Core==0.9.0` to consume deltas while the agent loop keeps running normally. |
+| [structured-output](language/csharp/examples/structured-output) | This example uses published NuGet `Praxo.Core==0.9.0` to turn free text into validated JSON with `StructuredOutput`. |
 
 ## Verify
 
