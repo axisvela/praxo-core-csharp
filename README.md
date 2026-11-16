@@ -66,6 +66,7 @@ Runnable examples live under [`language/csharp/examples`](language/csharp/exampl
 
 | Example | What it shows |
 | --- | --- |
+| [advanced-delegation](language/csharp/examples/advanced-delegation) | This example shows an application-level parent/child agent pattern using published NuGet `Praxo.Core==0.9.1`. The parent agent may call a `delegate` tool but not the child's `re... |
 | [checkpoint](language/csharp/examples/checkpoint) | This example uses published NuGet `Praxo.Core==0.9.1` to keep checkpoint storage application-owned while using the SDK allowlist for payload encoding. |
 | [consumer](language/csharp/examples/consumer) | This starter installs the published NuGet package `Praxo.Core==0.9.1` and verifies an allow/deny governed tool path. |
 | [event-sink](language/csharp/examples/event-sink) | This example uses published NuGet `Praxo.Core==0.9.1` to observe agent lifecycle and tool events without coupling the agent to a logging or telemetry backend. |
