@@ -81,15 +81,9 @@ Runnable examples live under [`language/csharp/examples`](language/csharp/exampl
 | [streaming](language/csharp/examples/streaming) | This example uses published NuGet `Praxo.Core==0.10.0` to consume deltas while the agent loop keeps running normally. |
 | [structured-output](language/csharp/examples/structured-output) | This example uses published NuGet `Praxo.Core==0.10.0` to turn free text into validated JSON with `StructuredOutput`. |
 
-## Tutorials and Candidate Scenarios
-
-Start with the [Tutorial Plan](https://axisvela.github.io/praxo-core/getting-started/tutorial-plan/) for delivery standards and the [reference application portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio), review the [100 candidate agent scenarios](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), and browse the [unified Tutorial Catalog](https://axisvela.github.io/praxo-core/getting-started/tutorial-catalog/).
-
-Chinese: [教程计划](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-plan/), [候选场景](https://axisvela.github.io/praxo-core/zh-CN/getting-started/agent-scenarios/), [教程目录](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-catalog/).
-
 ## Scenario Tutorials
 
-Scenario-oriented tutorials live under `language/csharp/Tutorial`.
+Scenario-oriented tutorials live under `language/csharp/Tutorial`. Planning context: [Tutorial Plan](https://axisvela.github.io/praxo-core/getting-started/tutorial-plan/), [100 candidate agent scenarios](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), and [Tutorial Catalog](https://axisvela.github.io/praxo-core/getting-started/tutorial-catalog/).
 
 | Path | What it shows |
 | --- | --- |
@@ -111,6 +105,8 @@ Scenario-oriented tutorials live under `language/csharp/Tutorial`.
 | [test-generation](language/csharp/Tutorial/test-generation) | A bounded first slice of [SE-04](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), not a test-execution or load-testing service. It generates three bounde... |
 | [trial-screening](language/csharp/Tutorial/trial-screening) | A bounded tutorial slice over the native .NET Core. It reads one fixed fixture, enforces scope and drafts a review-only result. No production write or external system access. |
 | [zero-trust-review](language/csharp/Tutorial/zero-trust-review) | A bounded tutorial slice over the native .NET Core. It reads one fixed fixture, enforces scope and drafts a review-only result. No production write or external system access. |
+
+No accepted end-to-end reference application is recorded for this language yet. Candidate goals are tracked in the [Reference Application Portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio).
 
 ## Verify
 
